@@ -36,7 +36,7 @@ img{
     .info{
         grid-template-columns: 1fr;
         grid-template-rows: repeat(3,1fr);
-        height: 1000px;
+        height: 1050px;
     }
     img{
         width: 280px;

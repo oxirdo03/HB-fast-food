@@ -135,15 +135,14 @@ main{
     button{
         width: 130px;
         font-size: 1rem;
-        margin-left: 10px;
+        margin-left: 4px;
     }
 
     main{
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: repeat(7, 1fr);
         width: 400px;
-        margin-left: 40px;
-        margin-right: 40px;
+        margin-left: 0%;
     }
     .menulogo{
         grid-column: 1 /span 1;
@@ -155,7 +154,7 @@ main{
         grid-row: 1 /span 1;
         grid-column: 2 / span 1;
         margin: 0;
-        width: 100%;
+        width: 80%;
     }
     .duner1{
         grid-column: 1 / span 1;
@@ -199,13 +198,13 @@ main{
         margin-left: 0%;
     }
     .burgerinfo{
-        grid-column: 2 / span 1;
+        grid-column: 1 / span 1;
         grid-row: 5 / span 1;
         width: 100%;
         margin-top: 0%;
         
     }
-    .burger h2{
+    .burgerinfo h2{
         font-size: 0.8rem;
     }
     .corndog1{
@@ -232,7 +231,7 @@ main{
         margin-left: 0%;
     }
     .kartofiinfo{
-        grid-column: 2 / span 1;
+        grid-column: 1 / span 1;
         grid-row: 7 / span 1;
         width: 100%;
         margin-top: 0%;

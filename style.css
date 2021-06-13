@@ -135,19 +135,22 @@ main{
     button{
         width: 130px;
         font-size: 1rem;
+        margin-left: 10px;
     }
 
     main{
         grid-template-columns: 20px repeat(4, 1fr) 20px;
-        grid-template-rows: 20 px repeat(6, 1fr);
+        grid-template-rows: 20px repeat(6, 1fr);
     }
     .menulogo{
         grid-column: 2 /span 2;
         grid-row: 2 / span 1;
+        margin: 0;
     }
     .logo{
         grid-row: 2 /span 1;
         grid-column: 5 / span 1;
+        margin: 0;
     }
     
     

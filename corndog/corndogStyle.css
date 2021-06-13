@@ -37,11 +37,11 @@ img{
         grid-template-columns: 1fr;
         grid-template-rows: repeat(3,1fr);
         height: 1300px;
-        background-color: green;
+        
     }
     img{
-        width: 120px;
-        height: 300px;
+        width: 220px;
+        
         
     }
     .sustavki{

@@ -1,0 +1,17 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    background-color: #EFC4C4;
+}
+h1{
+    text-align: center;
+}
+main{
+    display: flex;
+    flex-wrap: wrap;
+}
+.tm{
+    border: 2px solid #CB0022;
+    width: 30%;
+    margin: 20px;
+}

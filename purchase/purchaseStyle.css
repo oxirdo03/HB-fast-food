@@ -1,0 +1,127 @@
+html, body{
+    padding: 0;
+    margin: 0;
+    background-color: darkcyan;
+    height: 1000px;
+}
+h1{
+    text-align: center;
+    font-family: 'Hammersmith One', sans-serif;
+    margin-top: 100px;
+    font-size: 3em;
+    border-bottom: 10px solid darkblue;
+}
+main{
+    width: 90%;
+    height: 600px;
+    border: 2px solid white;
+    margin-left: 5%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+    
+}
+form{
+    border: 1px solid white;
+    margin:10px;
+    
+    
+}
+.info{
+    font-size: 2rem;
+    margin-top: 10px;
+    margin-left: 5px;
+    
+}
+.food{
+    display: grid;
+    border: 1px solid white;
+    margin:10px;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(3,1fr) 50px;
+    grid-gap: 10px;
+    
+}
+.duner{
+    border: 1px solid white;
+    margin: 5px;
+}
+.maluk{
+    display: inline;
+}
+.sreden{
+    display: inline;
+}
+.golqm{
+    display: inline;
+}
+.pizza{
+    border: 1px solid white;
+    margin: 5px;
+}
+
+.piza{
+    display: inline;
+}
+.burger{
+    border: 1px solid white;
+    margin: 5px;
+}
+
+.bur{
+    display: inline;
+}
+.corndog{
+    border: 1px solid white;
+    margin: 5px;
+}
+
+.corn{
+    display: inline;
+}
+.left{
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.right{
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.sum{
+    grid-column: 1/span 2;
+    border: 1px solid white;
+    text-align: end;
+}
+.final{
+    text-align: center;
+    margin-top: 50px;
+    width: 40%;
+    height: 100px;
+    font-size: 3rem;
+    border-radius: 50px;
+
+    background-color: rgb(32, 204, 32);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+.finalize{
+    text-align: center;
+}
+.total{
+    margin-right: 10px;
+}
+.hidden{
+    visibility: hidden;
+}
+h3{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+@media only screen and (max-width: 600px) {
+    main{
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(2,1fr);
+        height: 1800px;
+    }
+    .final{
+        width: 400px;
+    }
+  }

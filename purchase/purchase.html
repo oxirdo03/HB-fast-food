@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Make a purchase </title>
+        <meta name="description" content="">
+        <meta name ="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="purchaseStyle.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Hammersmith+One&display=swap" rel="stylesheet">
+    </head>
+    <body>
+
+        <h1>Make an order</h1>
+        <main>
+            <form>
+                <label for="name" class = "info">Name: </label>
+                <input type="text" id ="name" class = "info">
+                <br>
+                <label for="lastname" class = "info">Last Name: </label>
+                <input type="text" id ="lastname" class = "info">
+                <br>
+                <label for="phone" class = "info">Phone number: </label>
+                <input type="text" id ="phone" class = "info">
+                <br>
+                <label for="adress" class = "info">Adress: </label>
+                <input type="text" id ="adress" class = "info">
+                <br>
+                
+                
+                
+            </form>
+            <div class ="food">
+                <div class="duner">
+                    <h2>Дюнер </h2>
+                    <h3 class="maluk">Малък: 2,50 лв </h3 ><button class="maluk left" id="b1">-</button><h3 class="maluk count" id="c1"> 0 </h3><button class="maluk right" id="b2">+</button>
+                    <br>
+                    <h3 class ="sreden">Среден: 3,00 лв </h3><button class="sreden left" id="b3">-</button><h3 class="sreden count" id="c2"> 0 </h3><button class="sreden right" id="b4">+</button>
+                    <br>
+                    <h3 class="golqm">Голям: 4,00лв </h3><button class="golqm left" id="b5">-</button><h3 class="golqm count" id="c3"> 0 </h3><button class="golqm right"id="b6">+</button>
+                </div>
+                <div class="pizza">
+                    <h2>Пица</h2>
+                    <h3 class="piza">Пица: 3,50 лв/парче  </h3><button class="piza left" id="b7">-</button><h3 class="piza count" id="c4"> 0 </h3><button class="piza right" id="b8">+</button>
+
+                </div>
+                <div class = "burger">
+                    <h2>Бургер</h2>
+                    <h3 class="bur">Бургер: 3,00 лв  </h3><button class="bur left" id="b9">-</button><h3 class="bur count" id="c5"> 0 </h3><button class="bur right" id="b10">+</button>
+                </div>
+                <div class = "corndog">
+                    <h2>Корндог</h2>
+                    <h3 class="corn">Корндог: 1,50 лв  </h3><button class="corn left" id="b11">-</button><h3 class="corn count" id="c6"> 0 </h3><button class="corn right" id="b12">+</button>
+                </div>
+                <div class="duner">
+                    <h2>Картофи </h2>
+                    <h3 class="maluk">Малки: 1,50 лв </h3 ><button class="maluk left" id="b13">-</button><h3 class="maluk count" id="c7"> 0 </h3><button class="maluk right" id="b14">+</button>
+                    <br>
+                    <h3 class ="sreden">Средни: 2,50 лв </h3><button class="sreden left" id="b15">-</button><h3 class="sreden count" id="c8"> 0 </h3><button class="sreden right" id="b16">+</button>
+                    <br>
+                    <h3 class="golqm">Големи: 3,50лв </h3><button class="golqm left" id="b17">-</button><h3 class="golqm count" id="c9"> 0 </h3><button class="golqm right" id="b18">+</button>
+                </div>
+                <div class = "corndog">
+                    <h2>Джоб</h2>
+                    <h3 class="corn">Джоб: 2,50 лв  </h3><button class="corn left" id="b19">-</button><h3 class="corn count" id="c10"> 0 </h3><button class="corn right" id="b20">+</button>
+                </div>
+                <div class="sum">
+                    <h2 class="total" id="total">Total price: 0 лв</h2>
+                </div> 
+            </div>
+        </main>
+        <div class="finalize">
+            <a href="#"><button class="final" id="final">Make the order</button></a>
+        </div>
+        
+        
+        
+        
+        
+        <script src = "purchase.js" async></script>
+    </body>
+</html>

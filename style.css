@@ -1,0 +1,115 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    background-color: #EFC4C4;
+}
+header{
+    display: flex;
+    justify-content: space-around;
+    background-color: #F2A4A4;
+}
+ul li{
+    display: inline-block;
+    margin-right: 20px;
+}
+ul{
+    margin-top: 40px;
+}
+button{
+    width: 150px;
+    height: 50px;
+    margin-top: 30px;
+    border-radius: 30px;
+    font-size: 1.3rem;
+    background-color: rgb(170, 70, 70);
+    color: white;
+}
+
+.navb{
+    text-decoration: none;
+    color: #CB0022;
+    font-size: 1.5rem;
+}
+main{
+    display: grid;
+    width: 80%;
+    height: 1400px;
+    border: 1px solid black;
+    margin: 120px 10%;
+    
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(12, 1fr);
+}
+.menulogo{
+    grid-column: 1/span 3;
+    width: 80%;
+    margin-top: 40px;
+    margin-left: 40px;
+    border: 1px solid black 
+}
+.logo{
+    grid-column: 7/span 2;
+    width: 80%;
+    margin-top: 40px;
+    margin-right: 40px;
+}
+.duner1{
+    width:80%;
+    grid-column: 1/span 2;
+    margin-left: 40px;
+    margin-top: 50px;
+}
+.dunerinfo{
+    grid-column: 3/span 2;
+    margin-top: 70px;
+}
+.pizza1{
+    grid-column: 7/ span 2;
+    width: 80%;
+    margin-top: 40px;
+}
+.pizzainfo{
+    grid-row: 2/span 1;
+    grid-column: 6/span 1;
+    margin-top: 200px;
+}
+.burger1{
+    width:80%;
+    grid-column: 1/span 2;
+    margin-left: 40px;
+    margin-top: 150px;
+}
+.burgerinfo{
+    margin-top: 300px;
+}
+.corndog1{
+    grid-column: 7/ span 2;
+    width: 80%;
+    margin-top: 150px;
+}
+.corndoginfo{
+    grid-row: 3/span 1;
+    grid-column: 6/span 1;
+    margin-top: 300px;
+}
+.kartofi1{
+    grid-column: 1/ span 2;
+    width: 80%;
+    margin-left: 40px;
+    margin-top: 150px;
+
+}
+.kartofiinfo{
+    grid-column: 3/span 2;
+    margin-top: 180px;
+}
+.job1{
+    grid-column: 7/span 2;
+    width: 80%;
+    margin-top: 150px;
+}
+.jobinfo{
+    grid-column: 6/span 1;
+    margin-top: 300px;
+    grid-row: 4/span 1;
+}

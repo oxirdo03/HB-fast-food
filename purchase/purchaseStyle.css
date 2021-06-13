@@ -122,6 +122,14 @@ h3{
         height: 1800px;
     }
     .final{
-        width: 400px;
+        width: 380px;
+    }
+    .info{
+        font-size: 1rem;
+    }
+    .food{
+        grid-column: 1;
+        grid-row: repeat(6, 1fr) 50px;
+        justify-content: center;
     }
   }

@@ -1,7 +1,7 @@
 html, body{
     padding: 0;
     margin: 0;
-    background-color: darkcyan;
+    background-color: #EFC4C4;
     height: 1000px;
 }
 h1{
@@ -100,7 +100,7 @@ form{
     font-size: 3rem;
     border-radius: 50px;
 
-    background-color: rgb(32, 204, 32);
+    background-color: #F2A4A4;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
 .finalize{

@@ -141,6 +141,9 @@ main{
     main{
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: repeat(7, 1fr);
+        width: 400px;
+        margin-left: 40px;
+        margin-right: 40px;
     }
     .menulogo{
         grid-column: 1 /span 1;
@@ -159,14 +162,18 @@ main{
         grid-row: 2 / span 1;
         width: 100%;
         margin-top: 0;
+        margin-left: 0;
     }
     .dunerinfo{
         grid-column: 1 / span 1;
         grid-row: 3 / span 1;
         width: 100%;
         margin-top: 0%;
-        font-size: 0.8rem;
+        
 
+    }
+    .dunerinfo h2{
+        font-size: 0.8rem;
     }
     .pizza1{
         grid-column: 2 / span 1;
@@ -179,6 +186,9 @@ main{
         grid-row: 3 / span 1;
         width: 100%;
         margin-top: 0%;
+        
+    }
+    .pizzainfo h2{
         font-size: 0.8rem;
     }
     

@@ -126,6 +126,7 @@ h3{
     }
     .info{
         font-size: 1rem;
+        margin-top: 20px;
     }
     .food{
         grid-column: 1;

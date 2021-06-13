@@ -40,7 +40,7 @@ img{
     }
     img{
         width: 280px;
-        margin: 1px 10%;
+        margin: 1px 5%;
     }
     .sustavki{
         grid-row: 2/span 1;

@@ -191,6 +191,73 @@ main{
     .pizzainfo h2{
         font-size: 0.8rem;
     }
+    .burger1{
+        grid-column: 1 / span 1;
+        grid-row: 4 / span 1;
+        width: 100%;
+        margin-top: 0%;
+        margin-left: 0%;
+    }
+    .burgerinfo{
+        grid-column: 2 / span 1;
+        grid-row: 5 / span 1;
+        width: 100%;
+        margin-top: 0%;
+        
+    }
+    .burger h2{
+        font-size: 0.8rem;
+    }
+    .corndog1{
+        grid-column: 2 / span 1;
+        grid-row: 4 / span 1;
+        width: 100%;
+        margin-top: 0%;
+    }
+    .corndoginfo{
+        grid-column: 2 / span 1;
+        grid-row: 5 / span 1;
+        width: 100%;
+        margin-top: 0%;
+        
+    }
+    .corndoginfo h2{
+        font-size: 0.8rem;
+    }
+    .kartofi1{
+        grid-column: 1 / span 1;
+        grid-row: 6 / span 1;
+        width: 100%;
+        margin-top: 0%;
+        margin-left: 0%;
+    }
+    .kartofiinfo{
+        grid-column: 2 / span 1;
+        grid-row: 7 / span 1;
+        width: 100%;
+        margin-top: 0%;
+        
+    }
+    .kartofiinfo h2{
+        font-size: 0.8rem;
+    }
+    .job1{
+        grid-column: 2 / span 1;
+        grid-row: 6 / span 1;
+        width: 100%;
+        margin-top: 0%;
+    }
+    .jobinfo{
+        grid-column: 2 / span 1;
+        grid-row: 7 / span 1;
+        width: 100%;
+        margin-top: 0%;
+        
+    }
+    .jobinfo h2{
+        font-size: 0.8rem;
+    }
+
     
     
   }
